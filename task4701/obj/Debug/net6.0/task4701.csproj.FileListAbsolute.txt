@@ -1,0 +1,15 @@
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.csproj.AssemblyReference.cache
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.AssemblyInfoInputs.cache
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.AssemblyInfo.cs
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.csproj.CoreCompileInputs.cache
+C:\Users\Ovod2013\7\C-dz7\task4701\bin\Debug\net6.0\task4701.exe
+C:\Users\Ovod2013\7\C-dz7\task4701\bin\Debug\net6.0\task4701.deps.json
+C:\Users\Ovod2013\7\C-dz7\task4701\bin\Debug\net6.0\task4701.runtimeconfig.json
+C:\Users\Ovod2013\7\C-dz7\task4701\bin\Debug\net6.0\task4701.dll
+C:\Users\Ovod2013\7\C-dz7\task4701\bin\Debug\net6.0\task4701.pdb
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.dll
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\refint\task4701.dll
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.pdb
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\task4701.genruntimeconfig.cache
+C:\Users\Ovod2013\7\C-dz7\task4701\obj\Debug\net6.0\ref\task4701.dll
