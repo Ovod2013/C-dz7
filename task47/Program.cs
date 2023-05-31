@@ -1,4 +1,5 @@
-﻿// Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+﻿// Задача 47. Задайте двумерный массив размером m×n, 
+//заполненный случайными вещественными числами.
 // m = 3, n = 4.
 // 0,5 7 -2 -0,2
 // 1 -3,3 8 -9,9
@@ -11,7 +12,7 @@ int m = int.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов массива: ");
 int n = int.Parse(Console.ReadLine()!);
 
-double[,] array = GetArray(m, n, 10, 110);// Вызов метода GetArray 
+double[,] array = GetArray(m, n, -10, 19);// Вызов метода GetArray 
 // и передача ему количества столбцов, строк, максим и миним границ чисел
 PrintArray(array);
 
@@ -26,11 +27,10 @@ double[,] GetArray(int m, int n, int minValue, int maxValue)
     {
         for (int j = 0; j < n; j++)
         {
-            //result[i, j] = new Random().Next(minValue, maxValue)/10;
-
             x = random.NextDouble();
-            if (x<0.1) Console.WriteLine(x*1);
-            result[i, j] = 0;
+            x = x * maxValue + minValue;
+            x = x - x % 0.1;
+            result[i, j] = x;
             //Console.Write(result[i, j]);
         }
     }
@@ -43,7 +43,7 @@ void PrintArray(double[,] inArray)
     {
         for (int j = 0; j < inArray.GetLength(1); j++)
         {
-            Console.Write($"{inArray[i, j] * 100000} ");
+            Console.Write($"{inArray[i, j]} ");
         }
         Console.WriteLine();
     }
