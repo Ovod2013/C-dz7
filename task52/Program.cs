@@ -9,28 +9,27 @@
 
 
 Console.Write("Введите количество строк массива: ");
-int m = int.Parse(Console.ReadLine()!);
+int stroka = int.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов массива: ");
-int n = int.Parse(Console.ReadLine()!);
+int stolb = int.Parse(Console.ReadLine()!);
 
-int[,] array = GetArray(m, n, 0, 9);// Вызов метода GetArray 
+int[,] array = GetArray(stroka, stolb, 0, 9);// Вызов метода GetArray 
 // и передача ему количества столбцов, строк, максим и миним границ чисел
-PrintArray(array);
 
-
-
-int[,] GetArray(int m, int n, int minValue, int maxValue)
+int[,] GetArray(int stroka, int stolb, int minValue, int maxValue)
 {
-    int[,] result = new int[m, n];
-    for (int i = 0; i < m; i++)
+    int[,] result = new int[stroka, stolb];
+    for (int i = 0; i < stroka; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < stolb; j++)
         {
             result[i, j] = new Random().Next(minValue, maxValue + 1);
         }
     }
     return result;
 }
+
+PrintArray(array);
 
 void PrintArray(int[,] inArray)
 {
@@ -43,17 +42,32 @@ void PrintArray(int[,] inArray)
         Console.WriteLine();
     }
 }
-/*
-int[] SredneeArifm(int stolb, int stroka)
-{
-    int[] sredneeArifm = new int[stolb];
-    for (int i = 0; i < m; i++)
-    {
-        
-        result[i] = 0;
-        
-    }
 
+int[] sredneeArifm = SredneeArifm(stroka, stolb);
+
+
+int[] SredneeArifm(int stroka, int stolb)
+{
+    
+    double[] sredneeArifm = new double[stolb];
+    int[] result = new int[stolb];
+    for (int j = 0; j < stolb; j++)
+    {
+        int summaStolb=0;
+    for (int i = 0; i < stroka; i++)
+    {
+        summaStolb=array[i, j]+summaStolb;
+        //result[j] = 0;
+       // Console.WriteLine($"сумма столб {summaStolb} i={i} j={j}");
+    }
+    
+    //Console.WriteLine($"среднее арифм столбцов j={j} {summaStolb/stroka} ");
+    sredneeArifm[j]=(summaStolb/stroka);
+
+    Console.Write($"{sredneeArifm[j] - sredneeArifm[j] % 0.01}; ");
+    }
     return result;
 }
-*/
+
+
+

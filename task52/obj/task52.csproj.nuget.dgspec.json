@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ovod2013\\7\\C-dz7\\task52\\task52.csproj": {}
+    "C:\\Users\\Ovod\\7\\C-dz7\\task52\\task52.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ovod2013\\7\\C-dz7\\task52\\task52.csproj": {
+    "C:\\Users\\Ovod\\7\\C-dz7\\task52\\task52.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ovod2013\\7\\C-dz7\\task52\\task52.csproj",
+        "projectUniqueName": "C:\\Users\\Ovod\\7\\C-dz7\\task52\\task52.csproj",
         "projectName": "task52",
-        "projectPath": "C:\\Users\\Ovod2013\\7\\C-dz7\\task52\\task52.csproj",
-        "packagesPath": "C:\\Users\\Ovod2013\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ovod2013\\7\\C-dz7\\task52\\obj\\",
+        "projectPath": "C:\\Users\\Ovod\\7\\C-dz7\\task52\\task52.csproj",
+        "packagesPath": "C:\\Users\\Ovod\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ovod\\7\\C-dz7\\task52\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ovod2013\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ovod\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
